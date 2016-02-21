@@ -1,4 +1,6 @@
-call _cleanup.bat
+set ABS_PATH=%~dp0
+
+call %ABS_PATH%_cleanup.bat
 
 echo ===================================================
 echo  Machine successfully started. Now you can run:

@@ -27,37 +27,37 @@ GOTO :MENU
 
 :INIT
 CLS
-call init.bat
+call scripts\init.bat
 pause
 GOTO MENU
 
 :START
 CLS
-call start.bat
+call scripts\start.bat
 pause
 GOTO MENU
 
 :STOP
 CLS
-call stop.bat
+call scripts\stop.bat
 pause
 GOTO MENU
 
 :RESTART
 CLS
-call restart.bat
+call scripts\restart.bat
 pause
 GOTO MENU
 
 :REGENERATE
 CLS
-call regenerate-certs.bat
+call scripts\regenerate-certs.bat
 pause
 GOTO MENU
 
 :RM
 CLS
-call rm.bat
+call scripts\rm.bat
 pause
 GOTO MENU
 
