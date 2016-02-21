@@ -2,9 +2,9 @@ ECHO OFF
 :MENU
 CLS
 ECHO.
-ECHO .............................................................
-ECHO    PRESS 1, 2, 3, 4, 5, 6 to select your task, or 0 to EXIT.
-ECHO .............................................................
+ECHO    ..............................................................
+ECHO       PRESS 1, 2, 3, 4, 5, 6 to select your task, or 0 to EXIT
+ECHO    ..............................................................
 ECHO.
 ECHO      1 - Init Docker Machine
 ECHO      2 - Start Docker Machine
@@ -12,9 +12,10 @@ ECHO      3 - Stop Docker Machine
 ECHO      4 - Restart Docker Machine
 ECHO      5 - Regenerate Certs
 ECHO      6 - Remove Docker Machine
+ECHO.
 ECHO      0 - EXIT
 ECHO.
-SET /P M=Type 1, 2, 3, 4, 5, 6, or 0 then press ENTER:
+SET /P M=Type 1, 2, 3, 4, 5, 6, or 0 then press ENTER :
 IF %M%==1 GOTO INIT
 IF %M%==2 GOTO START
 IF %M%==3 GOTO STOP
